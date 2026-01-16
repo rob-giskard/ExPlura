@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\ExPlura\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\uiinteractwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinteractwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\tooltiptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tooltiptext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\emittervisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\emittervisibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\roomboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\roomboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\codemonkey\\monobehaviours\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\codemonkey\\monobehaviours\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UIInteractWith.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\UIInteractWith.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIInteractWith.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\UIInteractWith.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIInteractWith.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwDQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:51:28.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TooltipText.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\TooltipText.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TooltipText.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\TooltipText.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TooltipText.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T20:29:07.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameHandler.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameHandler.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameHandler.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAcwGYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T21:27:39.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DoorOpener.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOpener.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpener.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOpener.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DoorOpener.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T21:16:44.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbilityRewind.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\AbilityRewind.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AbilityRewind.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\AbilityRewind.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AbilityRewind.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T21:23:20.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmitterVisibility.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\EmitterVisibility.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EmitterVisibility.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\EmitterVisibility.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EmitterVisibility.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwFUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T22:03:14.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyController.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\EnemyController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:40:07.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwD8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:06:57.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\CodeMonkey\\MonoBehaviours\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\CodeMonkey\\MonoBehaviours\\CameraFollow.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\CodeMonkey\\MonoBehaviours\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\CodeMonkey\\MonoBehaviours\\CameraFollow.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:30:42.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomBoundary.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\RoomBoundary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoomBoundary.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\RoomBoundary.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoomBoundary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:29:54.512Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
