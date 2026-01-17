@@ -5,9 +5,12 @@ using UnityEngine.Rendering.Universal;
 public class LightBlink : MonoBehaviour
 {
     public Light2D terrainLight;
-    public float blinkInterval = 2f; // Adjust as needed
+    public float blinkInterval = 2f; 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public bool useAsymmetricBlink = false;
+    public float onDuration = 0.2f;   
+    public float offDuration = 2.5f;
+
     void Start()
     {
         if (terrainLight == null)
@@ -21,7 +24,16 @@ public class LightBlink : MonoBehaviour
         while (true)
         {
             terrainLight.enabled = !terrainLight.enabled;
-            yield return new WaitForSeconds(blinkInterval);
+            if (useAsymmetricBlink)
+            {
+                yield return new WaitForSeconds(
+                    terrainLight.enabled ? onDuration : offDuration
+                );
+            }
+            else
+            {
+                yield return new WaitForSeconds(blinkInterval);
+            }
         }
     }
 
