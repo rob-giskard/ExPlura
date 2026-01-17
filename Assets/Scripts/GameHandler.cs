@@ -2,14 +2,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using System.Collections;
-using CodeMonkey;
-using CodeMonkey.Utils;
 using TMPro;
 using UnityEngine.Rendering.Universal;
 
 public class GameHandler : MonoBehaviour
 {
     public GameObject player; 
+    Vector2 defaultPlayerPos;
     public static GameHandler Instance { get; private set; } // Singleton reference
     
     public int emittersGotten = 0; 
@@ -60,7 +59,7 @@ public class GameHandler : MonoBehaviour
         }
     }
 
-        void Start()
+    void Start()
     {
         Debug.Log("*Game handler running.*");
 
@@ -150,6 +149,7 @@ public class GameHandler : MonoBehaviour
             case (5):
                 LightGradualUp lightscript4 = beacon4.GetComponent<LightGradualUp>();
                 lightscript4.isHeatingUp = true;
+                // trigger text with R + T tutorial
                 break;
             default:
                 break;
@@ -161,6 +161,7 @@ public class GameHandler : MonoBehaviour
     {
         player.SetActive(true);
         Debug.Log("*player activated.*");
+        defaultPlayerPos = player.transform.position;
         SwitchCamera(mainCamera);
         Debug.Log("*main camera enabled.*");
         uiCanvas.SetActive(false);
@@ -198,14 +199,10 @@ public class GameHandler : MonoBehaviour
 
     private void ResetGame()
     {
-        emittersGotten = 0;
-        beacon1.intensity = 0;
-        beacon2.intensity = 0;
-        beacon3.intensity = 0;
-        beacon4.intensity = 0;
+        player.transform.position = defaultPlayerPos;
         PlayerController playerHPscript = player.GetComponent<PlayerController>();
         playerHPscript.HP = 3;
-        // reset doors when toggle ready
+        
     }
 
     private void SwitchCamera(Camera activeCamera) // Neat switcher

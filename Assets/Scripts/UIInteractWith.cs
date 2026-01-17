@@ -5,10 +5,8 @@ public class UIInteractWith : MonoBehaviour
 {
     public GameObject promptUI;
     public GameObject interactible;
-    public GameObject door1;
-    public GameObject door1a;
     private bool playerInRange = false;
-    public bool isDoorOpener = false;
+    
 
 
     void Start()
@@ -41,7 +39,7 @@ public class UIInteractWith : MonoBehaviour
         {
             Interact();
         }
-        if (interactible == null && !isDoorOpener)
+        if (interactible == null)
         {
             Debug.Log("Gonna destroy the text...");
             Destroy(promptUI);
@@ -50,7 +48,7 @@ public class UIInteractWith : MonoBehaviour
 
     public void DestroyText()
     {
-        if (promptUI != null && !isDoorOpener)
+        if (promptUI != null)
         {
             Destroy(promptUI);
             promptUI = null;
@@ -62,12 +60,5 @@ public class UIInteractWith : MonoBehaviour
         Debug.Log("Player interacted!");
         DestroyText();
 
-        DoorOpener doorscript1 = door1.GetComponent<DoorOpener>();
-        doorscript1.isUnlocked = true;
-        doorscript1.ToggleDoor();
-
-        DoorOpener doorscript1a = door1a.GetComponent<DoorOpener>();
-        doorscript1a.isUnlocked = true;
-        doorscript1a.ToggleDoor();
     }
 }
