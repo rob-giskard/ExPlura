@@ -14,11 +14,11 @@ public class AbilityRewind : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.G))
         {
             setRewindPoint();  
         }
-        if (Input.GetKeyDown(KeyCode.T) && pointSet)
+        if (Input.GetKeyDown(KeyCode.H) && pointSet)
         {
             rewindToPoint();
             
@@ -29,6 +29,7 @@ public class AbilityRewind : MonoBehaviour
     {
         rewindToPosition = transform.position;
         pointSet = true;
+        RewindToController.Instance.SpawnMarker(rewindToPosition);
 
         Debug.Log("Position saved at: " + rewindToPosition);
     }
@@ -39,5 +40,6 @@ public class AbilityRewind : MonoBehaviour
         Debug.Log("Leaving position at: " + rb.position);
         rb.position = rewindToPosition;
         pointSet = false;
+        RewindToController.Instance.ClearMarker();
     }
 }

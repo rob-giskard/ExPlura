@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\projects\\ExPlura\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\lightblink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightblink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\dooroperatorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\dooroperatorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooroperatorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "LightBlink.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\LightBlink.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightBlink.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\LightBlink.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightBlink.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-17T19:30:33.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DoorOperatorUI.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOperatorUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOperatorUI.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DoorOperatorUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T22:48:58.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T22:48:58.364Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GameHandler.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameHandler.cs",
@@ -59,12 +75,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameHandler.cs",
               "ViewState": "AgIAAHwAAAAAAAAAAAAcwJcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T21:27:39.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T21:27:39.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DoorOpener.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOpener.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpener.cs",
@@ -76,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AbilityRewind.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\AbilityRewind.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AbilityRewind.cs",
@@ -84,12 +99,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AbilityRewind.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T21:23:20.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-13T21:23:20.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyController.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\EnemyController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
@@ -102,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",

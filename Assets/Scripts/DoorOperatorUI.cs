@@ -8,17 +8,18 @@ public class DoorOperatorUI : MonoBehaviour
     public GameObject interactible;
     public GameObject door1;
     public GameObject door1a;
+    public GameObject door2;
     public GameObject door3;
     public GameObject door3b;
     public GameObject door3a;
+    public GameObject door4;
     private bool playerInRange = false;
-    
+
     void Start()
     {
         if (promptUI != null)
             promptUI.SetActive(false);
     }
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -27,7 +28,6 @@ public class DoorOperatorUI : MonoBehaviour
             promptUI.SetActive(true);
         }
     }
-
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -36,10 +36,9 @@ public class DoorOperatorUI : MonoBehaviour
             promptUI.SetActive(false);
         }
     }
-
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.T))
         {
             Interact();
         }
@@ -49,7 +48,6 @@ public class DoorOperatorUI : MonoBehaviour
             Destroy(promptUI);
         }
     }
-
     void Interact()
     {
         Debug.Log("Player interacted with a door operator!");
@@ -64,7 +62,7 @@ public class DoorOperatorUI : MonoBehaviour
             doorscript1a.isUnlocked = true;
             doorscript1a.ToggleDoor();
         }
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             DoorOpener doorscript3 = door3.GetComponent<DoorOpener>();
             doorscript3.isUnlocked = true;
@@ -77,6 +75,16 @@ public class DoorOperatorUI : MonoBehaviour
             DoorOpener doorscript3b = door3b.GetComponent<DoorOpener>();
             doorscript3b.isUnlocked = true;
             doorscript3b.ToggleDoor();
+        }
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            DoorOpener doorscript2 = door2.GetComponent<DoorOpener>();
+            doorscript2.isUnlocked = true;
+            doorscript2.ToggleDoor();
+
+            DoorOpener doorscript4 = door4.GetComponent<DoorOpener>();
+            doorscript4.isUnlocked = true;
+            doorscript4.ToggleDoor();
         }
     }
 }
