@@ -103,7 +103,7 @@ public class PlayerController : MonoBehaviour
         // store player uptime in seconds 
         return 0;
     }
-    void AskForReset()
+    public void AskForReset()
     {
         GameHandler resetScript = gameHandler.GetComponent<GameHandler>();
         resetScript.ReturnMenu();
@@ -112,7 +112,13 @@ public class PlayerController : MonoBehaviour
     void takeDamage(int dmgValue)
     {
         HP -= dmgValue;
+        Debug.Log("- - - - Player takes damage - - - - ");
         // put i-frames here
+        if (HP <= 0)
+        {
+            AskForReset();
+            Debug.Log("- - - - Player DEATH - - - - ");
+        }
         return;
     }
 

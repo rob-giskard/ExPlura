@@ -23,7 +23,7 @@ public class RewindToController : MonoBehaviour
     }
 
     public void ClearMarker()
-    {
+    {   
         if (currentMarker != null)
             Destroy(currentMarker);
     }

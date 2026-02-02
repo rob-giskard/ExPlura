@@ -25,8 +25,9 @@ public class GameHandler : MonoBehaviour
     public Camera uiCamera;
     public Camera mainCamera;
     
-    // Main menu UI
+    // UIs
     public GameObject uiCanvas;
+    public GameObject hudCanvas;
 
     // Global light
     public Light2D globalLight;
@@ -72,6 +73,9 @@ public class GameHandler : MonoBehaviour
 
         uiCanvas.SetActive(true);
         Debug.Log("*menu canvas activated.*");
+
+        hudCanvas.SetActive(true);
+        Debug.Log("*HUD canvas activated.*");
     }
 
     // Update is called once per frame
@@ -165,6 +169,7 @@ public class GameHandler : MonoBehaviour
         SwitchCamera(mainCamera);
         Debug.Log("*main camera enabled.*");
         uiCanvas.SetActive(false);
+        hudCanvas.SetActive(true);
         // this is pain 
         if (uiCamera == null) Debug.LogError("uiCamera is NULL!");
         if (uiCanvas == null) Debug.LogError("uiCanvas is NULL!");
@@ -182,7 +187,7 @@ public class GameHandler : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
-        #if UNITY_EDITOR // Preprocessor directive - the following code compiles only if running in Unity Editor
+        #if UNITY_EDITOR // Preprocessor directive - compiles only if running in Unity Editor
         UnityEditor.EditorApplication.isPlaying = false; 
         #endif
     }

@@ -136,6 +136,18 @@ public class EnemyController : MonoBehaviour
         Vector2 direction = (target - (Vector2)transform.position).normalized;
         entity.linearVelocity = direction * speed;
     }
+        void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Player"))
+        {
+            
+            PlayerHealth playerHealth = col.gameObject.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(1);
+            }
+        }
+    }
 }
 
 

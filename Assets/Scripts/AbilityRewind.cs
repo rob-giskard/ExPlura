@@ -6,10 +6,16 @@ public class AbilityRewind : MonoBehaviour
     Vector2 rewindToPosition;
     bool pointSet = false;
     public Rigidbody2D rb;
+    public Rigidbody2D manualPlaced;
+    public GameObject unlockObject;
 
     void Start()
     {
-        
+        rewindToPosition = manualPlaced.position;
+        pointSet = true;
+        RewindToController.Instance.SpawnMarker(rewindToPosition);
+
+        Debug.Log("Position saved at: " + rewindToPosition);
     }
 
     void Update()
@@ -36,7 +42,7 @@ public class AbilityRewind : MonoBehaviour
 
     void rewindToPoint()
     {
-        if (!pointSet) return;
+        if ((!pointSet) || (unlockObject != null)) return;
         Debug.Log("Leaving position at: " + rb.position);
         rb.position = rewindToPosition;
         pointSet = false;

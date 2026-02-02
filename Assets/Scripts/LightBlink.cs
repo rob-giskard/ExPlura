@@ -37,8 +37,6 @@ public class LightBlink : MonoBehaviour
         }
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         

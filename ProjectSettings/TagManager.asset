@@ -5,19 +5,20 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - UI
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Floor
   - Water
   - UI
   - Player
   - Wall
   - Item
   - Lights
-  - 
-  - 
+  - Furniture
+  - HUD
   - 
   - 
   - 
@@ -42,11 +43,11 @@ TagManager:
   - name: Background
     uniqueID: 2716806029
     locked: 0
-  - name: Walls
-    uniqueID: 2850081331
-    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Walls
+    uniqueID: 2850081331
     locked: 0
   - name: Entities
     uniqueID: 3454051965
@@ -60,8 +61,11 @@ TagManager:
   - name: Furniture
     uniqueID: 3475471427
     locked: 0
-  - name: New Layer 7
+  - name: UI
     uniqueID: 1399237115
+    locked: 0
+  - name: HUD
+    uniqueID: 2865446307
     locked: 0
   m_RenderingLayers:
   - Default

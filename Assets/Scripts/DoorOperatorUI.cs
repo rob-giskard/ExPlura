@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DoorOperatorUI : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class DoorOperatorUI : MonoBehaviour
     public GameObject door3a;
     public GameObject door4;
     private bool playerInRange = false;
+
+    public LightOnUI bulb1;
+    public bool isOnD1 = false;
 
     void Start()
     {
@@ -54,13 +58,7 @@ public class DoorOperatorUI : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            DoorOpener doorscript1 = door1.GetComponent<DoorOpener>();
-            doorscript1.isUnlocked = true;
-            doorscript1.ToggleDoor();
-
-            DoorOpener doorscript1a = door1a.GetComponent<DoorOpener>();
-            doorscript1a.isUnlocked = true;
-            doorscript1a.ToggleDoor();
+            DoorSwitch("E");            
         }
         if (Input.GetKeyDown(KeyCode.R))
         {
@@ -86,5 +84,27 @@ public class DoorOperatorUI : MonoBehaviour
             doorscript4.isUnlocked = true;
             doorscript4.ToggleDoor();
         }
+    }
+    void DoorSwitch(string key)
+    {
+        switch (key)
+        {
+
+            case "E":
+
+                isOnD1 = !isOnD1;
+                bulb1.SetState(isOnD1);
+                DoorOpener doorscript1 = door1.GetComponent<DoorOpener>();
+                doorscript1.isUnlocked = true;
+                doorscript1.ToggleDoor();
+
+                DoorOpener doorscript1a = door1a.GetComponent<DoorOpener>();
+                doorscript1a.isUnlocked = true;
+                doorscript1a.ToggleDoor();
+                break;
+
+        }
+        
+
     }
 }

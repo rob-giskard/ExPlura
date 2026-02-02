@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooroperatorui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\lightonui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lightonui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,8 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameHandler.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameHandler.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T22:27:36.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightOnUI.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\LightOnUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightOnUI.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\LightOnUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightOnUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T21:43:18.168Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -44,47 +68,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOperatorUI.cs",
               "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOperatorUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\DoorOperatorUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T22:48:58.364Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameHandler.cs",
-              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameHandler.cs",
-              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameHandler.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAcwJcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T21:27:39.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DoorOpener.cs",
-              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOpener.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpener.cs",
-              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOpener.cs",
-              "RelativeToolTip": "Assets\\Scripts\\DoorOpener.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T21:16:44.778Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbilityRewind.cs",
-              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\AbilityRewind.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AbilityRewind.cs",
-              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\AbilityRewind.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AbilityRewind.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T21:23:20.119Z",
+              "WhenOpened": "2026-01-29T20:54:03.595Z",
               "EditorCaption": ""
             },
             {
@@ -95,10 +81,22 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyController.cs",
               "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\EnemyController.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T21:40:07.865Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T10:54:40.584Z"
             },
             {
               "$type": "Document",
@@ -108,7 +106,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwD8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T20:06:57.368Z"
             }
