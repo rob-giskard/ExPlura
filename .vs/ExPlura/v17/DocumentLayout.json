@@ -3,23 +3,31 @@
   "WorkspaceRootPath": "D:\\projects\\ExPlura\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\uiinteractwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinteractwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dooropener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\uiinteractwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uiinteractwith.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\abilityrewind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\rewindtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\rewindtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewindtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|d:\\projects\\explura\\assets\\scripts\\emitterability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|D:\\projects\\ExPlura\\assets\\scripts\\emitterability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D6C2B0A-32B6-E947-698F-67BAF127E63D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\emitterability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "GameHandler.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameHandler.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\GameHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameHandler.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAuwNAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T23:10:18.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-02T23:09:33.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DoorOpener.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\DoorOpener.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DoorOpener.cs",
@@ -47,20 +81,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UIInteractWith.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\UIInteractWith.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIInteractWith.cs",
               "ToolTip": "D:\\projects\\ExPlura\\Assets\\Scripts\\UIInteractWith.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIInteractWith.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAIAwwB8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-02T22:44:35.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RewindToController.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\RewindToController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RewindToController.cs",
@@ -68,12 +102,11 @@
               "RelativeToolTip": "Assets\\Scripts\\RewindToController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T21:35:02.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T21:35:02.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AbilityRewind.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\AbilityRewind.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AbilityRewind.cs",
@@ -81,12 +114,11 @@
               "RelativeToolTip": "Assets\\Scripts\\AbilityRewind.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowC0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T21:23:30.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T21:23:30.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "EmitterAbility.cs",
               "DocumentMoniker": "D:\\projects\\ExPlura\\Assets\\Scripts\\EmitterAbility.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EmitterAbility.cs",
@@ -94,8 +126,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EmitterAbility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-02T21:21:12.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-02T21:21:12.966Z"
             }
           ]
         }

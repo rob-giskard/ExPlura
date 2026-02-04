@@ -20,18 +20,18 @@ public class AbilityRewind : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            setRewindPoint();  
+            SetRewindPoint();  
         }
-        if (Input.GetKeyDown(KeyCode.H) && pointSet)
+        if (Input.GetKeyDown(KeyCode.Space) && pointSet)
         {
-            rewindToPoint();
+            RewindToPoint();
             
         }
     }
 
-    void setRewindPoint()
+    void SetRewindPoint()
     {
         rewindToPosition = transform.position;
         pointSet = true;
@@ -40,7 +40,7 @@ public class AbilityRewind : MonoBehaviour
         Debug.Log("Position saved at: " + rewindToPosition);
     }
 
-    void rewindToPoint()
+    void RewindToPoint()
     {
         if ((!pointSet) || (unlockObject != null)) return;
         Debug.Log("Leaving position at: " + rb.position);

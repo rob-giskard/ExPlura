@@ -9,11 +9,8 @@ public class DoorOperatorUI : MonoBehaviour
     public GameObject interactible;
     public GameObject door1;
     public GameObject door1a;
-    public GameObject door2;
-    public GameObject door3;
-    public GameObject door3b;
-    public GameObject door3a;
-    public GameObject door4;
+    public GameObject door1b;
+
     private bool playerInRange = false;
 
     public LightOnUI bulb1;
@@ -42,7 +39,7 @@ public class DoorOperatorUI : MonoBehaviour
     }
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.R) || Input.GetKeyDown(KeyCode.T))
+        if (playerInRange && Input.anyKeyDown)
         {
             Interact();
         }
@@ -58,8 +55,8 @@ public class DoorOperatorUI : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            DoorSwitch("E");            
-        }
+            DoorSwitch();
+        } /*
         if (Input.GetKeyDown(KeyCode.R))
         {
             DoorOpener doorscript3 = door3.GetComponent<DoorOpener>();
@@ -84,27 +81,32 @@ public class DoorOperatorUI : MonoBehaviour
             doorscript4.isUnlocked = true;
             doorscript4.ToggleDoor();
         }
-    }
-    void DoorSwitch(string key)
-    {
-        switch (key)
+    } */
+        void DoorSwitch()
         {
+            isOnD1 = !isOnD1;
+            bulb1.SetState(isOnD1);
+            DoorOpener doorscript1 = door1.GetComponent<DoorOpener>();
+            doorscript1.isUnlocked = true;
+            doorscript1.ToggleDoor();
 
-            case "E":
+            DoorOpener doorscript1a = door1a.GetComponent<DoorOpener>();
+            doorscript1a.isUnlocked = true;
+            doorscript1a.ToggleDoor();
 
-                isOnD1 = !isOnD1;
-                bulb1.SetState(isOnD1);
-                DoorOpener doorscript1 = door1.GetComponent<DoorOpener>();
-                doorscript1.isUnlocked = true;
-                doorscript1.ToggleDoor();
+            DoorOpener doorscript1b = door1b.GetComponent<DoorOpener>();
+            doorscript1b.isUnlocked = true;
+            doorscript1b.ToggleDoor();
 
-                DoorOpener doorscript1a = door1a.GetComponent<DoorOpener>();
-                doorscript1a.isUnlocked = true;
-                doorscript1a.ToggleDoor();
-                break;
+
+
+
+
+
+
+
+
 
         }
-        
-
     }
 }

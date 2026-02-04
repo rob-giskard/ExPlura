@@ -26,7 +26,7 @@ public class UIInteractWith : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && this != null)
         {
             playerInRange = false;
             promptUI.SetActive(false);

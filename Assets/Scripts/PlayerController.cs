@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
         RotateTowardsMouse();
 
         // Dash Input
-        if (Input.GetKeyDown(KeyCode.Space) && !isDashing)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
         {
             StartCoroutine(Dash());
         }
@@ -85,8 +85,8 @@ public class PlayerController : MonoBehaviour
     System.Collections.IEnumerator Dash()
     {
         isDashing = true;
-        Vector2 dashDirection = moveInput; // Dash in movement direction
-        if (dashDirection == Vector2.zero) dashDirection = transform.right; // Default to facing direction if no input
+        Vector2 dashDirection = moveInput; 
+        if (dashDirection == Vector2.zero) dashDirection = transform.right; 
 
         rb.linearVelocity = dashDirection * dashSpeed;
         yield return new WaitForSeconds(dashDuration);

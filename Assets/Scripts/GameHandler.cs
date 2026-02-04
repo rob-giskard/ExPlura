@@ -39,7 +39,7 @@ public class GameHandler : MonoBehaviour
     public Light2D beacon4;
 
     // Doors
-    // TODO make a list? - yes but some better container and move to doorhandler
+    // delete later, doors now handle themselves
     public GameObject door1;
     public GameObject door1a;
     public GameObject door2;
@@ -47,6 +47,8 @@ public class GameHandler : MonoBehaviour
     public GameObject door3a;
     public GameObject door3b;
     public GameObject door4;
+
+    public GameObject spawnPoint;
     
     void Awake()
     {
@@ -204,7 +206,7 @@ public class GameHandler : MonoBehaviour
 
     private void ResetGame()
     {
-        player.transform.position = defaultPlayerPos;
+        player.transform.position = spawnPoint.transform.position;
         PlayerController playerHPscript = player.GetComponent<PlayerController>();
         playerHPscript.HP = 3;
         
