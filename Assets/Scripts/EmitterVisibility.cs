@@ -3,9 +3,9 @@ using UnityEngine.Rendering.Universal;
 
 public class EmitterVisibility : MonoBehaviour
 {
-    public Light2D globalLight;  // Reference to the global light
-    public Light2D flashlight;   // Reference to the flashlight
-    public float flashlightRange = 5f; // Flashlight detection range
+    public Light2D globalLight;  
+    public Light2D flashlight;   
+    public float flashlightRange = 5f; 
 
     private Renderer collectibleRenderer;
     private ShadowCaster2D shadowCaster;
@@ -24,7 +24,7 @@ public class EmitterVisibility : MonoBehaviour
         collectibleCollider = GetComponent<Collider2D>();
         collectibleMaterial = collectibleRenderer.material;
 
-        SetVisibility(false); // Start with the collectible invisible
+        SetVisibility(false); 
     }
 
     void Update()
@@ -48,7 +48,7 @@ public class EmitterVisibility : MonoBehaviour
 
                 collectibleMaterial.SetVector("_FlashlightPosition", new Vector4(flashlight.transform.position.x, flashlight.transform.position.y, 0, 1.0f));
                 collectibleMaterial.SetFloat("_FlashlightRange", flashlight.pointLightOuterRadius);
-                collectibleMaterial.color = new Color(1, 1, 1, fadeFactor); // Apply fade effect
+                collectibleMaterial.color = new Color(1, 1, 1, fadeFactor); 
 
                 SetVisibility(fadeFactor > 0);
             }
@@ -61,7 +61,7 @@ public class EmitterVisibility : MonoBehaviour
     {
         collectibleRenderer.enabled = visible;
         shadowCaster.enabled = visible;
-        collectibleCollider.enabled = visible; // Only allow collection when visible
+        collectibleCollider.enabled = visible; 
     }
 
     bool IsWithinFlashlightCone()
@@ -78,7 +78,7 @@ public class EmitterVisibility : MonoBehaviour
         float distance = Vector3.Distance(flashlightPos, transform.position);
 
         RaycastHit2D hit = Physics2D.Raycast(flashlightPos, directionToCollectible, distance, LayerMask.GetMask("Wall"));
-        return hit.collider != null; // Returns true if a wall is in the way
+        return hit.collider != null; 
     }
 
     void OnTriggerEnter2D(Collider2D other)

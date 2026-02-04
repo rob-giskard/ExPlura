@@ -24,12 +24,12 @@ public class GlobalLightController : MonoBehaviour
     public void ToggleLight()
     {
         isLightOn = !isLightOn;
-        globalLight.intensity = isLightOn ? 1f : 0.2f; // Adjust intensity as needed
+        globalLight.intensity = isLightOn ? 1f : 0.05f; // Adjust intensity as needed
     }
 
     public void SetLightState(bool state)
     {
         isLightOn = state;
-        globalLight.intensity = state ? 1f : 0.007f;
+        globalLight.intensity = state ? 1f : 0.02f;
     }
 }

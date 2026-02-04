@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     [Header("References")]
     public Rigidbody2D rb;
     public GameObject gameHandler;
+    public BlinkAbility ability;
 
     private Vector2 moveInput;
     private bool isDashing = false;
@@ -34,20 +35,31 @@ public class PlayerController : MonoBehaviour
         }
         // Get movement input
         HandleMovement();
+        
 
         // Rotate towards the mouse
         RotateTowardsMouse();
 
         // Dash Input
+        /*
         if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing)
         {
             StartCoroutine(Dash());
-        }
+        } */
     }
-
     void HandleMovement()
     {
+        Vector3 mouseWorld =
+        Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector2 blinkDirection =
+        (mouseWorld - transform.position);
+
+        
+        blinkDirection.Normalize();
+
         moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        
 
         // originally checked if moveInput is null, didn't work
         // since its a vector 2, its never null
@@ -62,6 +74,12 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isRunning", false);
             // Debug.Log($"Player stopped");
+        }
+
+        
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            ability.TryBlink(blinkDirection);
         }
 
     }

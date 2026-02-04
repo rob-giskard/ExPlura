@@ -1,5 +1,7 @@
+using System.Net;
 using UnityEngine;
 using UnityEngine.Rendering;
+using static UnityEngine.UI.Image;
 
 public class AbilityRewind : MonoBehaviour
 {
@@ -8,6 +10,9 @@ public class AbilityRewind : MonoBehaviour
     public Rigidbody2D rb;
     public Rigidbody2D manualPlaced;
     public GameObject unlockObject;
+
+    [Header("VFX")]
+    public GameObject startVFX;
 
     void Start()
     {
@@ -38,12 +43,15 @@ public class AbilityRewind : MonoBehaviour
         RewindToController.Instance.SpawnMarker(rewindToPosition);
 
         Debug.Log("Position saved at: " + rewindToPosition);
+        
     }
 
     void RewindToPoint()
     {
         if ((!pointSet) || (unlockObject != null)) return;
         Debug.Log("Leaving position at: " + rb.position);
+        if (startVFX)
+            Instantiate(startVFX, transform.position, Quaternion.identity);
         rb.position = rewindToPosition;
         pointSet = false;
         RewindToController.Instance.ClearMarker();

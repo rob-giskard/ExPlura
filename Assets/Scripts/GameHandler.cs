@@ -21,6 +21,8 @@ public class GameHandler : MonoBehaviour
             emittersGotten = value;
         }
     }
+    public TMP_Text pillCount;
+
     // Camera list
     public Camera uiCamera;
     public Camera mainCamera;
@@ -55,6 +57,7 @@ public class GameHandler : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
+            
         }
         else
         {
@@ -94,6 +97,7 @@ public class GameHandler : MonoBehaviour
                 StartGame();
             }
         }
+        UpdateUI();
         // admin codes for doors
         //TODO make a switch or use some input handler
         // make toggle to close them
@@ -216,5 +220,11 @@ public class GameHandler : MonoBehaviour
     {
         mainCamera.enabled = (activeCamera == mainCamera);
         uiCamera.enabled = (activeCamera == uiCamera);
+    }
+
+    private void UpdateUI()
+    {
+        pillCount.text = emittersGotten.ToString();
+        Debug.Log("update pill ui");
     }
 }
