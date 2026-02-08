@@ -59,6 +59,9 @@ TagManager:
   - name: InvisCollectibles
     uniqueID: 3848769773
     locked: 0
+  - name: VisibleCollectibles
+    uniqueID: 419471439
+    locked: 0
   - name: Furniture
     uniqueID: 3475471427
     locked: 0

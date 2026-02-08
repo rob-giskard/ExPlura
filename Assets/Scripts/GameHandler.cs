@@ -225,6 +225,5 @@ public class GameHandler : MonoBehaviour
     private void UpdateUI()
     {
         pillCount.text = emittersGotten.ToString();
-        Debug.Log("update pill ui");
     }
 }

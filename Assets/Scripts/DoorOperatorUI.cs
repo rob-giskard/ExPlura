@@ -1,5 +1,6 @@
 using TMPro;
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,6 +16,8 @@ public class DoorOperatorUI : MonoBehaviour
 
     public LightOnUI bulb1;
     public bool isOnD1 = false;
+
+    public GameObject doorSound;
 
     void Start()
     {
@@ -56,6 +59,8 @@ public class DoorOperatorUI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             DoorSwitch();
+            EmitterSoundController sound = doorSound.GetComponent<EmitterSoundController>(); //change emitter sound control =ler to general controller
+            sound.EmitPickupSound();
         } /*
         if (Input.GetKeyDown(KeyCode.R))
         {
